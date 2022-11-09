@@ -1,0 +1,4 @@
+ssh keys
+eval "$(ssh-agent -s)"
+ssh-keygen -t ed25519-sk -C "YOUR_EMAIL"
+ssh-add ~/.ssh/id_ed25519
